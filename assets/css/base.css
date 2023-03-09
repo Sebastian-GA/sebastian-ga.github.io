@@ -1,0 +1,29 @@
+:root {
+    --background-white: #ffffff;
+
+    --font-dark-grey: #464646;
+    --font: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    font-weight: 400;
+    padding: 0.8rem;
+}
+
+html {
+    min-width: 300px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 1rem 5rem;
+    }
+}
