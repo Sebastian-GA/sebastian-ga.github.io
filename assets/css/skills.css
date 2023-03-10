@@ -1,0 +1,45 @@
+.skills {
+    margin: 2rem 0;
+}
+
+.skills__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.skills__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    width: 20%;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.skills__icon {
+    width: 70%;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        margin: 3rem 0;
+    }
+
+    .skills__item {
+        width: 10%;
+    }
+    .skills__icon {
+        margin-bottom: 1rem;
+    }
+}

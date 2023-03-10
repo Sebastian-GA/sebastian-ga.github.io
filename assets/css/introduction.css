@@ -31,6 +31,7 @@
     text-decoration: none;
     color: var(--font-black);
     font-size: 0.9rem !important;
+    font-weight: 500;
 
     margin-right: 0.6rem;
     padding: 0.25rem 0.6rem;
