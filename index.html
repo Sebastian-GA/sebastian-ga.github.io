@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="assets/css/menu.css" />
         <link rel="stylesheet" href="assets/css/introduction.css" />
         <link rel="stylesheet" href="assets/css/about-me.css" />
-        <link rel="stylesheet" href="assets/css/skills.css" />
+        <link rel="stylesheet" href="assets/css/grid.css" />
     </head>
     <body>
         <header class="menu">
@@ -32,9 +32,9 @@
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#about-me" class="menu__link">Sobre mi</a></li>
                     <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Hobbies</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Formación</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Proyectos</a></li>
+                    <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
+                    <li class="menu__item"><a href="#education" class="menu__link">Formación</a></li>
+                    <li class="menu__item"><a href="#projects" class="menu__link">Proyectos</a></li>
                 </ul>
                 <a href="mailto:isebastian.ga@gmail.com" class="menu__link menu__link-contact">isebastian.ga@gmail.com</a>
             </nav>
@@ -61,81 +61,80 @@
                 </div>
             </section>
 
-            <section class="about-me" id="about-me">
-                <h3 class="about-me__title">Sobre mi</h3>
+            <section class="section" id="about-me">
+                <h3 class="section__title">Sobre mi</h3>
                 <p class="about-me__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est esse consectetur nemo adipisci, modi dolor in error deserunt
                     hic sint, voluptas reiciendis ea doloremque ullam et, ducimus quos voluptatibus.
                 </p>
             </section>
 
-            <section class="skills" id="skills">
-                <h3 class="skills__title">Skills</h3>
-                <ul class="skills__list">
-                    <li class="skills__item">
-                        <img src="assets/icon/html5.svg" alt="icon" class="skills__icon" />
+            <section class="section" id="skills">
+                <h3 class="section__title">Skills</h3>
+                <ul class="grid">
+                    <li class="grid__item">
+                        <img src="assets/icon/html5.svg" alt="icon" class="grid__icon" />
                         HTML5
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/js.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/js.svg" alt="icon" class="grid__icon" />
                         JavaScript
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/css3.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/css3.svg" alt="icon" class="grid__icon" />
                         CSS3
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/python.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/python.svg" alt="icon" class="grid__icon" />
                         Python
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/c++.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/c++.svg" alt="icon" class="grid__icon" />
                         C++
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/matlab.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/matlab.svg" alt="icon" class="grid__icon" />
                         MATLAB
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/git.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/git.svg" alt="icon" class="grid__icon" />
                         git
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/github.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/github.svg" alt="icon" class="grid__icon" />
                         GitHub
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/latex.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/latex.svg" alt="icon" class="grid__icon" />
                         LaTeX
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/power-point.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/power-point.svg" alt="icon" class="grid__icon" />
                         Power Point
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/arduino.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/arduino.svg" alt="icon" class="grid__icon" />
                         Arduino
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/windows.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/windows.svg" alt="icon" class="grid__icon" />
                         Windows
                     </li>
-                    <li class="skills__item">
-                        <img src="assets/icon/linux.svg" alt="icon" class="skills__icon" />
+                    <li class="grid__item">
+                        <img src="assets/icon/linux.svg" alt="icon" class="grid__icon" />
                         Linux
                     </li>
                 </ul>
             </section>
 
-            <!-- TODO: Update class name -->
-            <section class="skills" id="hobbies">
-                <h3 class="skills__title">Hobbies</h3>
-                <ul class="skills__list">
-                    <li class="skills__item"><img src="" alt="icon" class="skills__icon" />Escuchar música</li>
-                    <li class="skills__item"><img src="" alt="icon" class="skills__icon" />Ver Series</li>
-                    <li class="skills__item"><img src="" alt="icon" class="skills__icon" />Origami</li>
-                    <li class="skills__item"><img src="" alt="icon" class="skills__icon" />Caminar</li>
-                    <li class="skills__item"><img src="" alt="icon" class="skills__icon" />Jugar</li>
+            <section class="section" id="hobbies">
+                <h3 class="section__title">Hobbies</h3>
+                <ul class="grid">
+                    <li class="grid__item"><img src="" alt="icon" class="grid__icon" />Escuchar música</li>
+                    <li class="grid__item"><img src="" alt="icon" class="grid__icon" />Ver Series</li>
+                    <li class="grid__item"><img src="" alt="icon" class="grid__icon" />Origami</li>
+                    <li class="grid__item"><img src="" alt="icon" class="grid__icon" />Caminar</li>
+                    <li class="grid__item"><img src="" alt="icon" class="grid__icon" />Jugar</li>
                 </ul>
             </section>
         </main>

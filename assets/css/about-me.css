@@ -1,18 +1,4 @@
-.about-me {
-    margin: 2rem 0;
-}
-
-.about-me__title {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 0.5rem 0;
-}
-
-@media screen and (min-width:768px) {
-    .about-me {
-        margin: 3rem 0;
-    }
-    
+@media screen and (min-width: 768px) {
     .about-me__text {
         width: 60%;
     }
