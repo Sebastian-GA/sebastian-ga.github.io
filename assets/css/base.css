@@ -2,12 +2,14 @@
     --background-white: #ffffff;
 
     --font-dark-grey: #464646;
+    --font-black: #000000;
     --font: "Raleway", sans-serif;
 }
 
 body {
     font-family: var(--font);
     font-weight: 400;
+    color: var(--font-black);
     padding: 0.8rem;
 }
 
@@ -18,12 +20,12 @@ html {
 
 @media screen and (min-width: 768px) {
     body {
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
     body {
-        padding: 1rem 5rem;
+        padding: 2rem 5rem;
     }
 }

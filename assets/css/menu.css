@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .menu div {
@@ -30,9 +31,8 @@
 }
 
 .menu__link {
-    font-weight: 400;
     text-decoration: none;
-    color: var(--font-dark-grey);
+    color: var(--font-black);
 }
 .menu__link-contact {
     font-size: 0.9rem;
