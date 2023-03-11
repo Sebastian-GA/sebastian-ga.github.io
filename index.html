@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="assets/css/about-me.css" />
         <link rel="stylesheet" href="assets/css/icons.css" />
         <link rel="stylesheet" href="assets/css/education.css" />
+        <link rel="stylesheet" href="assets/css/projects.css" />
     </head>
     <body>
         <header class="menu">
@@ -171,18 +172,37 @@
 
             <section class="section" id="projects">
                 <h3 class="section__title">Proyectos</h3>
-                <ul class="grid">
-                    <li class="grid__item grid__item-big">
-                        <div class="grid__item-img" style="background-image: url(assets/img/its-just-a-hug.png)"></div>
-                        <h4 class="grid__item-title">It's Just a Hug</h4>
-                        <p class="grid__item-text">VideoJuego multijugador local para dos jugadores creado como proyecto final de asignatura</p>
-                        <a href=""></a><a href=""></a>
+                <ul class="projects__container">
+                    <li class="project__card">
+                        <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="project__img" />
+                        <h4 class="project__title">It's Just a Hug</h4>
+                        <div class="project__icons-container">
+                            <div class="project__icon" style="background: url(assets/icon/processing.png)"></div>
+                        </div>
+                        <p class="project__text">
+                            VideoJuego multijugador local para dos jugadores creado en colaboración como proyecto final de asignatura.
+                        </p>
+                        <div class="project__buttons-container">
+                            <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="project__button">
+                                Ver en GitHub
+                            </a>
+                        </div>
                     </li>
-                    <li class="grid__item grid__item-big">
-                        <img src="" alt="" class="grid__item-img" />
-                        <h4 class="grid__item-title"></h4>
-                        <p class="grid__item-text"></p>
-                        <a href=""></a><a href=""></a>
+                    <li class="project__card">
+                        <img src="assets/img/encriptador.png" alt="Project Preview" class="project__img" />
+                        <h4 class="project__title">Encriptador de Texto</h4>
+                        <div class="project__icons-container">
+                            <div class="project__icon" style="background: url(assets/icon/html5.svg)"></div>
+                            <div class="project__icon" style="background: url(assets/icon/js.svg)"></div>
+                            <div class="project__icon" style="background: url(assets/icon/css3.svg)"></div>
+                        </div>
+                        <p class="project__text">Challenge Alura Codificador</p>
+                        <div class="project__buttons-container">
+                            <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="project__button"> Ver Demo </a>
+                            <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="project__button">
+                                Ver en GitHub
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </section>
