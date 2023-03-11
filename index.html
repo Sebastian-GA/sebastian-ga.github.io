@@ -24,6 +24,8 @@
         <link rel="stylesheet" href="assets/css/icons.css" />
         <link rel="stylesheet" href="assets/css/education.css" />
         <link rel="stylesheet" href="assets/css/projects.css" />
+        <link rel="stylesheet" href="assets/css/contact.css" />
+        <link rel="stylesheet" href="assets/css/footer.css" />
     </head>
     <body>
         <header class="menu">
@@ -39,7 +41,7 @@
                     <li class="menu__item"><a href="#education" class="menu__link">Formación</a></li>
                     <li class="menu__item"><a href="#projects" class="menu__link">Proyectos</a></li>
                 </ul>
-                <a href="mailto:isebastian.ga@gmail.com" class="menu__link menu__link-contact">isebastian.ga@gmail.com</a>
+                <a href="mailto:isebastian.ga@gmail.com" class="menu__link menu__link-contact" target="_blank">isebastian.ga@gmail.com</a>
             </nav>
         </header>
         <main>
@@ -52,9 +54,13 @@
                         programa Oracle Next Education en colaboración con Alura Latam.
                     </p>
                     <div class="introduction__container-links">
-                        <a href="http://example.com/" class="introduction__link"> Resume <i class="bi bi-file-earmark-person-fill"></i> </a>
-                        <a href="https://github.com/Sebastian-GA" class="introduction__link"> GitHub <i class="bi bi-github"></i> </a>
-                        <a href="https://linkedin.com/in/Sebastian-GA" class="introduction__link"> Linkedin <i class="bi bi-linkedin"></i> </a>
+                        <a href="http://example.com/" class="introduction__link" target="_blank">
+                            Resume <i class="bi bi-file-earmark-person-fill"></i>
+                        </a>
+                        <a href="https://github.com/Sebastian-GA" class="introduction__link" target="_blank"> GitHub <i class="bi bi-github"></i> </a>
+                        <a href="https://linkedin.com/in/Sebastian-GA" class="introduction__link" target="_blank">
+                            Linkedin <i class="bi bi-linkedin"></i>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -206,6 +212,23 @@
                     </li>
                 </ul>
             </section>
+
+            <section class="section" id="contacto">
+                <h3 class="section__title">Contacto</h3>
+                <p>¿Quieres contactarme? Completa el siguiente formulario</p>
+                <form class="contact__form" name="form">
+                    <input type="text" name="nombre" placeholder="Nombre" />
+                    <input type="email" name="email" placeholder="E-Mail" />
+                    <input type="text" name="asunto" placeholder="Asunto" />
+                    <textarea rows="5" cols="40" name="mensaje" placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </section>
         </main>
+
+        <footer class="footer">
+            <p>Desarrollado <a href="https://github.com/Sebastian-GA" target="_blank">@Sebastian-GA</a></p>
+            <p>2023</p>
+        </footer>
     </body>
 </html>
