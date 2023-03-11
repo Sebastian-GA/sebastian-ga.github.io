@@ -21,7 +21,8 @@ html {
 
 /* Base section styles */
 .section {
-    margin: 2rem 0;
+    margin: 1rem 0;
+    padding: 1rem 0;
 }
 .section__title {
     font-size: 1.3rem;
