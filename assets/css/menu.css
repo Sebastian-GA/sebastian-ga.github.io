@@ -8,22 +8,19 @@
 .menu div {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 .menu__nav {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 .menu__list {
     display: none;
-    align-items: center;
-}
-.menu__item {
-    margin: 0 1rem;
 }
 
 .menu__icon {
     color: var(--font-dark-grey);
-    margin-right: 0.5rem;
 }
 .menu__title {
     color: var(--font-dark-grey);
@@ -48,8 +45,7 @@
 @media screen and (min-width: 1024px) {
     .menu__list {
         display: flex;
-    }
-    .menu__link-contact {
-        margin-left: 1rem;
+        align-items: center;
+        gap: 1rem;
     }
 }
