@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 1rem;
+    margin: 2rem 0;
 }
 
 .icons__card {
