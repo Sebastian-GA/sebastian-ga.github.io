@@ -1,5 +1,5 @@
 :root {
-    --background-white: #ffffff;
+    --background-cream: #f5f5f5;
 
     --font-dark-grey: #464646;
     --font-black: #000000;
@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     color: var(--font-black);
     padding: 0.8rem;
+    background-color: var(--background-cream);
 }
 
 html {
