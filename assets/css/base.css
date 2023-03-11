@@ -19,24 +19,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Base section styles */
-.section {
-    margin: 1rem 0;
-    padding: 1rem 0;
-}
-.section__title {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 0.5rem 0;
-}
-
 @media screen and (min-width: 768px) {
     body {
         padding: 1rem 2rem;
-    }
-
-    .section {
-        margin: 3rem 0;
     }
 }
 
