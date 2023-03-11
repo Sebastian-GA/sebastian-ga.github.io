@@ -19,11 +19,12 @@ select:focus {
     margin: 10px 0px;
     height: 56px;
     width: 80vw;
+    font-family: var(--font);
 }
 
 .contact__form input::placeholder {
     color: #464646;
-    font-family: "Raleway";
+    font-family: var(--font);
 }
 
 .contact__form input:focus {
@@ -36,6 +37,7 @@ select:focus {
     margin: 10px 0px;
     height: 96px;
     width: 80vw;
+    font-family: var(--font);
 }
 
 .contact__form textarea:focus {
@@ -44,7 +46,7 @@ select:focus {
 
 .contact__form textarea::placeholder {
     color: #464646;
-    font-family: "Raleway";
+    font-family: var(--font);
 }
 
 .contact__form button {

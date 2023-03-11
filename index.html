@@ -217,10 +217,10 @@
                 <h3 class="section__title">Contacto</h3>
                 <p>¿Quieres contactarme? Completa el siguiente formulario</p>
                 <form class="contact__form" name="form">
-                    <input type="text" name="nombre" placeholder="Nombre" />
-                    <input type="email" name="email" placeholder="E-Mail" />
-                    <input type="text" name="asunto" placeholder="Asunto" />
-                    <textarea rows="5" cols="40" name="mensaje" placeholder="Mensaje"></textarea>
+                    <input type="text" name="name" placeholder="Nombre" required />
+                    <input type="email" name="email" placeholder="E-Mail" required/>
+                    <input type="text" name="subject" placeholder="Asunto" required/>
+                    <textarea rows="5" cols="40" name="message" placeholder="Mensaje" required></textarea>
                     <button type="submit">Enviar mensaje</button>
                 </form>
             </section>
@@ -230,5 +230,6 @@
             <p>Desarrollado <a href="https://github.com/Sebastian-GA" target="_blank">@Sebastian-GA</a></p>
             <p>2023</p>
         </footer>
+        <script src="assets/js/validation.js"></script>
     </body>
 </html>
