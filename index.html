@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,14 +11,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <!-- Import Icons -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/base.css" />
         <link rel="stylesheet" href="assets/css/menu.css" />
-        <link rel="stylesheet" href="assets/css/introduction.css" />
+        <link rel="stylesheet" href="assets/css/home.css" />
         <link rel="stylesheet" href="assets/css/section.css" />
         <link rel="stylesheet" href="assets/css/about-me.css" />
         <link rel="stylesheet" href="assets/css/icons.css" />
@@ -29,200 +29,192 @@
     </head>
     <body>
         <header class="menu">
-            <div>
-                <span class="material-symbols-outlined menu__icon">auto_awesome</span>
-                <h2 class="menu__title">Sebastián García</h2>
-            </div>
+            <a href="#" class="menu__logo">Sebastián García</a>
             <nav class="menu__nav">
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="#about-me" class="menu__link">Sobre mi</a></li>
+                    <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#about-me" class="menu__link">About me</a></li>
                     <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
                     <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
-                    <li class="menu__item"><a href="#education" class="menu__link">Formación</a></li>
-                    <li class="menu__item"><a href="#projects" class="menu__link">Proyectos</a></li>
+                    <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
+                    <li class="menu__item"><a href="#projects" class="menu__link">Portfolio</a></li>
                 </ul>
-                <a href="mailto:isebastian.ga@gmail.com" class="menu__link menu__link-contact" target="_blank">isebastian.ga@gmail.com</a>
             </nav>
         </header>
+
         <main>
-            <section class="introduction">
-                <img src="assets/img/me.png" alt="me" class="introduction__img" />
-                <div class="introduction__content">
-                    <h2 class="introduction__title">&#128075; ¡Hola! Soy Sebastián</h2>
-                    <p class="introduction__text">
-                        Soy estudiante de Ingeniería Electrónica en la Universidad Industrial de Santander y actualmente estoy participando en el
-                        programa Oracle Next Education en colaboración con Alura Latam.
-                    </p>
-                    <div class="introduction__container-links">
-                        <a href="http://example.com/" class="introduction__link" target="_blank">
-                            Resume <i class="bi bi-file-earmark-person-fill"></i>
-                        </a>
-                        <a href="https://github.com/Sebastian-GA" class="introduction__link" target="_blank"> GitHub <i class="bi bi-github"></i> </a>
-                        <a href="https://linkedin.com/in/Sebastian-GA" class="introduction__link" target="_blank">
-                            Linkedin <i class="bi bi-linkedin"></i>
-                        </a>
+            <section class="home section">
+                <div class="container">
+                    <img src="assets/img/me.png" alt="me" class="home__img" />
+                    <div class="home__content">
+                        <h3>&#128075; Hi There</h3>
+                        <h1 class="home__title">I'm Sebastián</h1>
+                        <p class="home__text">Student of Electronic Engineering at Industrial University of Santander about to graduate.</p>
+                        <div class="home__container-links">
+                            <a href="http://example.com/" class="home__link" target="_blank">
+                                Resume <iconify-icon icon="uil:file-blank"></iconify-icon>
+                            </a>
+                            <a href="https://github.com/Sebastian-GA" class="home__link" target="_blank">
+                                GitHub <iconify-icon icon="uil:github"></iconify-icon>
+                            </a>
+                            <a href="https://linkedin.com/in/Sebastian-GA" class="home__link" target="_blank">
+                                Linkedin <iconify-icon icon="uil:linkedin"></iconify-icon>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section class="section" id="about-me">
-                <h3 class="section__title">Sobre mi</h3>
-                <p class="about-me__text">
-                    Soy Sebastián García, un apasionado por la tecnología y la programación de 21 años originario de Bucaramanga, Colombia. Me
-                    considero una persona comprometida y organizada, siempre dispuesta a aprender cosas nuevas y mejorar mis habilidades. Siempre
-                    busco estar al día en las últimas tendencias tecnológicas y estoy emocionado de explorar nuevas oportunidades para aplicar mis
-                    habilidades y contribuir al éxito de los proyectos en los que trabajo.
-                </p>
+                <h3 class="section__title">About me</h3>
+                <div class="container">
+                    <p>Under Construction &#128679;</p>
+                </div>
             </section>
 
             <section class="section" id="skills">
                 <h3 class="section__title">Skills</h3>
-                <ul class="icons__container">
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/html5.svg)"></div>
-                        <p class="icons__name">HTML5</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/js.svg)"></div>
-                        <p class="icons__name">JavaScript</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/css3.svg)"></div>
-                        <p class="icons__name">CSS3</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/python.svg)"></div>
-                        <p class="icons__name">Python</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/c++.svg)"></div>
-                        <p class="icons__name">C++</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/matlab.svg)"></div>
-                        <p class="icons__name">MATLAB</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/git.svg)"></div>
-                        <p class="icons__name">git</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/github.svg)"></div>
-                        <p class="icons__name">GitHub</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/latex.svg)"></div>
-                        <p class="icons__name">LaTeX</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/arduino.svg)"></div>
-                        <p class="icons__name">Arduino</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/windows.svg)"></div>
-                        <p class="icons__name">Windows</p>
-                    </li>
-                    <li class="icons__card">
-                        <div class="icons__icon" style="background: url(assets/icon/linux.svg)"></div>
-                        <p class="icons__name">Linux</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <ul class="icons__container">
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/html5.svg)"></div>
+                            <p class="icons__name">HTML5</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/js.svg)"></div>
+                            <p class="icons__name">JavaScript</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/css3.svg)"></div>
+                            <p class="icons__name">CSS3</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/python.svg)"></div>
+                            <p class="icons__name">Python</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/c++.svg)"></div>
+                            <p class="icons__name">C++</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/matlab.svg)"></div>
+                            <p class="icons__name">MATLAB</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/git.svg)"></div>
+                            <p class="icons__name">git</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/github.svg)"></div>
+                            <p class="icons__name">GitHub</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/latex.svg)"></div>
+                            <p class="icons__name">LaTeX</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/arduino.svg)"></div>
+                            <p class="icons__name">Arduino</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/windows.svg)"></div>
+                            <p class="icons__name">Windows</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__icon" style="background: url(assets/icon/linux.svg)"></div>
+                            <p class="icons__name">Linux</p>
+                        </li>
+                    </ul>
+                </div>
+
             </section>
 
             <section class="section" id="hobbies">
                 <h3 class="section__title">Hobbies</h3>
-                <ul class="icons__container">
-                    <li class="icons__card">
-                        <span class="material-symbols-outlined" style="font-size: 3rem"> headphones </span>
-                        <p class="icons__name">Escucha Música</p>
-                    </li>
-                    <li class="icons__card">
-                        <span class="material-symbols-outlined" style="font-size: 3rem"> tv </span>
-                        <p class="icons__name">Ver Series</p>
-                    </li>
-                    <li class="icons__card">
-                        <span class="material-symbols-outlined" style="font-size: 3rem"> cut </span>
-                        <p class="icons__name">Origami</p>
-                    </li>
-                    <li class="icons__card">
-                        <span class="material-symbols-outlined" style="font-size: 3rem"> directions_walk </span>
-                        <p class="icons__name">Caminar</p>
-                    </li>
-                    <li class="icons__card">
-                        <span class="material-symbols-outlined" style="font-size: 3rem"> sports_esports </span>
-                        <p class="icons__name">Jugar</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <ul class="icons__container">
+                        <li class="icons__card">
+                            <iconify-icon icon="uil:headphones-alt"></iconify-icon>
+                            <p class="icons__name">Escucha Música</p>
+                        </li>
+                        <li class="icons__card">
+                            <iconify-icon icon="uil:tv-retro"></iconify-icon>
+                            <p class="icons__name">Ver Series</p>
+                        </li>
+                        <li class="icons__card">
+                            <iconify-icon icon="uil:basketball"></iconify-icon>
+                            <p class="icons__name">Jugar</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <section class="section" id="education">
                 <h3 class="section__title">Formación Académica</h3>
-                <ul class="education__container">
-                    <li class="education__card">
-                        <img src="assets/img/uis-logo.png" alt="UIS Logo" class="education__img" />
-                        <h4 class="education__title">Ingeniería Electrónica</h4>
-                        <p class="education__text">En curso - UIS</p>
-                    </li>
-                    <li class="education__card">
-                        <img src="assets/img/one-logo.png" alt="ONE Logo" class="education__img" />
-                        <h4 class="education__title">Formación Front-End</h4>
-                        <p class="education__text">En curso - ONE | Oracle Next Education</p>
-                    </li>
-                    <li class="education__card">
-                        <img src="assets/img/sena-logo.png" alt="SENA Logo" class="education__img" />
-                        <h4 class="education__title">Aplicación del Reglamento Técnico para Redes Internas de Telecomunicaciones</h4>
-                        <p class="education__text">2022 - SENA</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <ul class="education__container">
+                        <li class="education__card">
+                            <img src="assets/img/uis-logo.png" alt="UIS Logo" class="education__img" />
+                            <h4 class="education__title">Electronic Engineering</h4>
+                            <p class="education__text">En curso - UIS</p>
+                        </li>
+                        <li class="education__card">
+                            <img src="assets/img/one-logo.png" alt="ONE Logo" class="education__img" />
+                            <h4 class="education__title">Front-End Web Developer</h4>
+                            <p class="education__text">2023 - ONE | Oracle Next Education</p>
+                        </li>
+                        <li class="education__card">
+                            <img src="assets/img/sena-logo.png" alt="SENA Logo" class="education__img" />
+                            <h4 class="education__title">Application of the Technical Regulation for Internal Telecommunications Networks</h4>
+                            <p class="education__text">2022 - SENA</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <section class="section" id="projects">
                 <h3 class="section__title">Proyectos</h3>
-                <ul class="projects__container">
-                    <li class="project__card">
-                        <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="project__img" />
-                        <h4 class="project__title">It's Just a Hug</h4>
-                        <div class="project__icons-container">
-                            <div class="project__icon" style="background: url(assets/icon/processing.png)"></div>
-                        </div>
-                        <p class="project__text">
-                            VideoJuego multijugador local para dos jugadores creado en colaboración como proyecto final de asignatura.
-                        </p>
-                        <div class="project__buttons-container">
-                            <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="project__button">
-                                Ver en GitHub
-                            </a>
-                        </div>
-                    </li>
-                    <li class="project__card">
-                        <img src="assets/img/encriptador.png" alt="Project Preview" class="project__img" />
-                        <h4 class="project__title">Encriptador de Texto</h4>
-                        <div class="project__icons-container">
-                            <div class="project__icon" style="background: url(assets/icon/html5.svg)"></div>
-                            <div class="project__icon" style="background: url(assets/icon/js.svg)"></div>
-                            <div class="project__icon" style="background: url(assets/icon/css3.svg)"></div>
-                        </div>
-                        <p class="project__text">Challenge Alura Codificador</p>
-                        <div class="project__buttons-container">
-                            <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="project__button"> Ver Demo </a>
-                            <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="project__button">
-                                Ver en GitHub
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+                <div class="container">
+
+                    <ul class="projects__container">
+                        <li class="project__card">
+                            <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="project__img" />
+                            <h4 class="project__title">It's Just a Hug</h4>
+                            <div class="project__icons-container">
+                                <div class="project__icon" style="background: url(assets/icon/processing.png)"></div>
+                            </div>
+                            <p class="project__text">
+                                VideoJuego multijugador local para dos jugadores creado en colaboración como proyecto final de asignatura.
+                            </p>
+                            <div class="project__buttons-container">
+                                <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="project__button">
+                                    Ver en GitHub
+                                </a>
+                            </div>
+                        </li>
+                        <li class="project__card">
+                            <img src="assets/img/encriptador.png" alt="Project Preview" class="project__img" />
+                            <h4 class="project__title">Encriptador de Texto</h4>
+                            <div class="project__icons-container">
+                                <div class="project__icon" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="project__icon" style="background: url(assets/icon/js.svg)"></div>
+                                <div class="project__icon" style="background: url(assets/icon/css3.svg)"></div>
+                            </div>
+                            <p class="project__text">Challenge Alura Codificador</p>
+                            <div class="project__buttons-container">
+                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="project__button"> Ver Demo </a>
+                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="project__button">
+                                    Ver en GitHub
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <section class="section" id="contacto">
                 <h3 class="section__title">Contacto</h3>
-                <p>¿Quieres contactarme? Completa el siguiente formulario</p>
-                <form class="contact__form" name="form">
-                    <input type="text" name="name" placeholder="Nombre" required />
-                    <input type="email" name="email" placeholder="E-Mail" required />
-                    <input type="text" name="subject" placeholder="Asunto" required />
-                    <textarea rows="5" cols="40" name="message" placeholder="Mensaje" required></textarea>
-                    <button type="submit">Enviar mensaje</button>
-                </form>
+                <p>Under Construction &#128679;</p>
             </section>
         </main>
 

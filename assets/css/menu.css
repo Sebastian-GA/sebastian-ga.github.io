@@ -22,7 +22,7 @@
 .menu__icon {
     color: var(--font-dark-grey);
 }
-.menu__title {
+.menu__logo {
     color: var(--font-dark-grey);
     font-weight: 700;
 }
