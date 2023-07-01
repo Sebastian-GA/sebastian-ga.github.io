@@ -28,36 +28,40 @@
         <link rel="stylesheet" href="assets/css/footer.css" />
     </head>
     <body>
+        <!-- ==================== HEADER ==================== -->
         <header class="menu">
             <a href="#" class="menu__logo">Sebastián García</a>
             <nav class="menu__nav">
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
-                    <li class="menu__item"><a href="#about-me" class="menu__link">About me</a></li>
+                    <li class="menu__item"><a href="#about-me" class="menu__link">About</a></li>
                     <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
                     <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
                     <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
-                    <li class="menu__item"><a href="#projects" class="menu__link">Portfolio</a></li>
+                    <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
                 </ul>
             </nav>
         </header>
 
+        <!-- ==================== MAIN ==================== -->
         <main>
-            <section class="home section">
+            <!-- ==================== HOME ==================== -->
+            <section class="section home" id="home">
                 <div class="container">
                     <img src="assets/img/me.png" alt="me" class="home__img" />
                     <div class="home__content">
                         <h3>&#128075; Hi There</h3>
                         <h1 class="home__title">I'm Sebastián</h1>
-                        <p class="home__text">Student of Electronic Engineering at Industrial University of Santander about to graduate.</p>
-                        <div class="home__container-links">
-                            <a href="http://example.com/" class="home__link" target="_blank">
+                        <p class="home__text">Student of Electronic Engineering at Industrial University of Santander.</p>
+
+                        <div class="home__social">
+                            <a href="http://example.com/" class="home__social-link" target="_blank">
                                 Resume <iconify-icon icon="uil:file-blank"></iconify-icon>
                             </a>
-                            <a href="https://github.com/Sebastian-GA" class="home__link" target="_blank">
+                            <a href="https://github.com/Sebastian-GA" class="home__social-link" target="_blank">
                                 GitHub <iconify-icon icon="uil:github"></iconify-icon>
                             </a>
-                            <a href="https://linkedin.com/in/Sebastian-GA" class="home__link" target="_blank">
+                            <a href="https://linkedin.com/in/Sebastian-GA" class="home__social-link" target="_blank">
                                 Linkedin <iconify-icon icon="uil:linkedin"></iconify-icon>
                             </a>
                         </div>
@@ -65,146 +69,233 @@
                 </div>
             </section>
 
+            <!-- ==================== ABOUT ME ==================== -->
             <section class="section" id="about-me">
-                <h3 class="section__title">About me</h3>
+                <h2 class="section__title">About me</h2>
                 <div class="container">
-                    <p>Under Construction &#128679;</p>
+                    <p class="about-me__content">
+                        As a soon-to-be graduate in Electronic Engineering, my dedication and passion for programming have shaped my academic journey.
+                        Proficient in Python, C++, and MATLAB, I possess the skills necessary to confidently tackle a wide range of coding challenges.
+                        Moreover, I have gained valuable experience in programming microcontrollers like Arduino and ESP32, while also exploring the
+                        realm of web development.
+                    </p>
                 </div>
             </section>
 
+            <!-- ==================== SKILLS ==================== -->
             <section class="section" id="skills">
-                <h3 class="section__title">Skills</h3>
+                <h2 class="section__title">Skills</h2>
                 <div class="container">
                     <ul class="icons__container">
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/html5.svg)"></div>
-                            <p class="icons__name">HTML5</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/python.svg)"></div>
+                            <span class="icons__card-name">Python</span>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/js.svg)"></div>
-                            <p class="icons__name">JavaScript</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/c++.svg)"></div>
+                            <p class="icons__card-name">C++</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/css3.svg)"></div>
-                            <p class="icons__name">CSS3</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/matlab.svg)"></div>
+                            <p class="icons__card-name">MATLAB</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/python.svg)"></div>
-                            <p class="icons__name">Python</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/html5.svg)"></div>
+                            <span class="icons__card-name">HTML5</span>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/c++.svg)"></div>
-                            <p class="icons__name">C++</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/css3.svg)"></div>
+                            <span class="icons__card-name">CSS3</span>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/matlab.svg)"></div>
-                            <p class="icons__name">MATLAB</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/js.svg)"></div>
+                            <span class="icons__card-name">JavaScript</span>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/git.svg)"></div>
-                            <p class="icons__name">git</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/git.svg)"></div>
+                            <p class="icons__card-name">git</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/github.svg)"></div>
-                            <p class="icons__name">GitHub</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/github.svg)"></div>
+                            <p class="icons__card-name">GitHub</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/latex.svg)"></div>
-                            <p class="icons__name">LaTeX</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/latex.svg)"></div>
+                            <p class="icons__card-name">LaTeX</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/arduino.svg)"></div>
-                            <p class="icons__name">Arduino</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/arduino.svg)"></div>
+                            <p class="icons__card-name">Arduino</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/windows.svg)"></div>
-                            <p class="icons__name">Windows</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/espressif.svg)"></div>
+                            <p class="icons__card-name">ESP32</p>
                         </li>
                         <li class="icons__card">
-                            <div class="icons__icon" style="background: url(assets/icon/linux.svg)"></div>
-                            <p class="icons__name">Linux</p>
+                            <div class="icons__card-icon" style="background: url(assets/icon/windows.svg)"></div>
+                            <p class="icons__card-name">Windows</p>
+                        </li>
+                        <li class="icons__card">
+                            <div class="icons__card-icon" style="background: url(assets/icon/linux.svg)"></div>
+                            <p class="icons__card-name">Linux</p>
                         </li>
                     </ul>
                 </div>
-
             </section>
 
+            <!-- ==================== HOBBIES ==================== -->
             <section class="section" id="hobbies">
-                <h3 class="section__title">Hobbies</h3>
+                <h2 class="section__title">Hobbies</h2>
                 <div class="container">
                     <ul class="icons__container">
                         <li class="icons__card">
-                            <iconify-icon icon="uil:headphones-alt"></iconify-icon>
-                            <p class="icons__name">Escucha Música</p>
+                            <iconify-icon class="icons__card-icon" icon="uil:headphones-alt"></iconify-icon>
+                            <p class="icons__card-name">Music</p>
                         </li>
                         <li class="icons__card">
-                            <iconify-icon icon="uil:tv-retro"></iconify-icon>
-                            <p class="icons__name">Ver Series</p>
+                            <iconify-icon class="icons__card-icon" icon="uil:tv-retro"></iconify-icon>
+                            <p class="icons__card-name">Movies</p>
                         </li>
                         <li class="icons__card">
-                            <iconify-icon icon="uil:basketball"></iconify-icon>
-                            <p class="icons__name">Jugar</p>
+                            <iconify-icon class="icons__card-icon" icon="uil:basketball"></iconify-icon>
+                            <p class="icons__card-name">Games</p>
+                        </li>
+                        <li class="icons__card">
+                            <iconify-icon class="icons__card-icon" icon="uil:basketball"></iconify-icon>
+                            <p class="icons__card-name">Origami</p>
                         </li>
                     </ul>
                 </div>
             </section>
 
+            <!-- ==================== EDUCATION ==================== -->
             <section class="section" id="education">
-                <h3 class="section__title">Formación Académica</h3>
+                <h2 class="section__title">Education</h2>
                 <div class="container">
                     <ul class="education__container">
                         <li class="education__card">
-                            <img src="assets/img/uis-logo.png" alt="UIS Logo" class="education__img" />
-                            <h4 class="education__title">Electronic Engineering</h4>
-                            <p class="education__text">En curso - UIS</p>
+                            <img src="assets/img/uis-logo.png" alt="UIS Logo" class="education__card-mg" />
+                            <h4 class="education__card-title">Electronic Engineering</h4>
+                            <span class="education__card-institute">UIS</span>
+                            <span class="education__card-date">Expected in Dec 2023</span>
                         </li>
                         <li class="education__card">
-                            <img src="assets/img/one-logo.png" alt="ONE Logo" class="education__img" />
-                            <h4 class="education__title">Front-End Web Developer</h4>
-                            <p class="education__text">2023 - ONE | Oracle Next Education</p>
-                        </li>
-                        <li class="education__card">
-                            <img src="assets/img/sena-logo.png" alt="SENA Logo" class="education__img" />
-                            <h4 class="education__title">Application of the Technical Regulation for Internal Telecommunications Networks</h4>
-                            <p class="education__text">2022 - SENA</p>
+                            <img src="assets/img/one-logo.png" alt="ONE Logo" class="education__card-img" />
+                            <h4 class="education__card-title">Front-End Web Developer</h4>
+                            <span class="education__card-institute">ONE | Oracle Next Education</span>
+                            <span class="education__card-date">2023</span>
                         </li>
                     </ul>
+
+                    <!-- ==================== COURSES ==================== -->
+                    <!--
+                    <h3 class="section__subtitle">Courses</h3>
+                    <ul class="education__container">
+                        <li class="education__card-alt">
+                            <img src="assets/img/sena-logo.png" alt="SENA Logo" class="education__card-img" />
+                            <h4 class="education__card-title">Application of the Technical Regulation for Internal Telecommunications Networks</h4>
+                            <span class="education__card-institute">SENA</span>
+                            <span class="education__card-date">2022</pspa>
+                        </li>
+                    </ul>
+                    -->
                 </div>
             </section>
 
-            <section class="section" id="projects">
-                <h3 class="section__title">Proyectos</h3>
+            <!-- ==================== PORTFOLIO ==================== -->
+            <section class="section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
                 <div class="container">
-
-                    <ul class="projects__container">
-                        <li class="project__card">
-                            <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="project__img" />
-                            <h4 class="project__title">It's Just a Hug</h4>
-                            <div class="project__icons-container">
-                                <div class="project__icon" style="background: url(assets/icon/processing.png)"></div>
+                    <ul class="portfolio__container">
+                        <!-- ==================== IT'S JUST A HUG ==================== -->
+                        <li class="portfolio__card">
+                            <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="portfolio__card-img" />
+                            <h4 class="portfolio__card-title">It's Just a Hug</h4>
+                            <div class="portfolio__icons-container">
+                                <div class="portfolio__icon" style="background: url(assets/icon/processing.png)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/python.svg)"></div>
                             </div>
-                            <p class="project__text">
-                                VideoJuego multijugador local para dos jugadores creado en colaboración como proyecto final de asignatura.
+                            <p class="portfolio__card-text">
+                                Local multiplayer video game for two players created in collaboration as a final project for a course.
                             </p>
-                            <div class="project__buttons-container">
-                                <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="project__button">
-                                    Ver en GitHub
+                            <div class="portfolio__buttons-container">
+                                <a
+                                    href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug"
+                                    target="_blank"
+                                    class="portfolio__button">
+                                    Watch on GitHub
                                 </a>
                             </div>
                         </li>
+
+                        <!-- ==================== PYPLOTTER ==================== -->
                         <li class="project__card">
-                            <img src="assets/img/encriptador.png" alt="Project Preview" class="project__img" />
-                            <h4 class="project__title">Encriptador de Texto</h4>
-                            <div class="project__icons-container">
-                                <div class="project__icon" style="background: url(assets/icon/html5.svg)"></div>
-                                <div class="project__icon" style="background: url(assets/icon/js.svg)"></div>
-                                <div class="project__icon" style="background: url(assets/icon/css3.svg)"></div>
+                            <img src="assets/img/pyplotter.png" alt="Project Preview" class="portfolio__card-img" />
+                            <h4 class="portfolio__card-title">PyPlotter</h4>
+                            <div class="portfolio__icons-container">
+                                <div class="portfolio__icon" style="background: url(assets/icon/python.svg)"></div>
                             </div>
-                            <p class="project__text">Challenge Alura Codificador</p>
-                            <div class="project__buttons-container">
-                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="project__button"> Ver Demo </a>
-                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="project__button">
-                                    Ver en GitHub
+                            <p class="portfolio__card-text">
+                                Simple GUI for plotting data from a serial port. Can be used to plot data from an Arduino, ESP32 or any other
+                                microcontroller.
+                            </p>
+                            <div class="portfolio__buttons-container">
+                                <a href="https://github.com/Sebastian-GA/PyPlotter" target="_blank" class="portfolio__button"> Watch on GitHub </a>
+                            </div>
+                        </li>
+
+                        <!-- ==================== ALPACA IMAGE GENERATOR ==================== -->
+                        <li class="project__card">
+                            <img src="assets/img/alpaca-image-generator.png" alt="Project Preview" class="portfolio__card-img" />
+                            <h4 class="portfolio__card-title">Alpaca Generator</h4>
+                            <div class="portfolio__icons-container">
+                                <div class="portfolio__icon" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/css3.svg)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/js.svg)"></div>
+                            </div>
+                            <p class="portfolio__card-text">Alpaca Image Generator using HTML, CSS and JS. Challenge from DevProjects.</p>
+                            <div class="portfolio__buttons-container">
+                                <a href="https://sebastian-ga.github.io/alpaca-image-generator/" target="_blank" class="portfolio__button"> Watch Demo </a>
+                                <a href="https://github.com/Sebastian-GA/alpaca-image-generator" target="_blank" class="portfolio__button">
+                                    Watch on GitHub
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- ==================== CALCULATOR APP ==================== -->º
+                        <li class="project__card">
+                            <img src="assets/img/calculator-app.png" alt="Project Preview" class="portfolio__card-img" />
+                            <h4 class="portfolio__card-title">Calculator App</h4>
+                            <div class="portfolio__icons-container">
+                                <div class="portfolio__icon" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/css3.svg)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/js.svg)"></div>
+                            </div>
+                            <p class="portfolio__card-text">Solution to the Calculator App challenge on Frontend Mentor.</p>
+                            <div class="portfolio__buttons-container">
+                                <a href="https://sebastian-ga.github.io/calculator-app/" target="_blank" class="portfolio__button"> Watch Demo </a>
+                                <a href="https://github.com/Sebastian-GA/calculator-app" target="_blank" class="portfolio__button">
+                                    Watch on GitHub
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- ==================== TEXT ENCRYPTER ==================== -->
+                        <li class="project__card">
+                            <img src="assets/img/text-encrypter.png" alt="Project Preview" class="portfolio__card-img" />
+                            <h4 class="portfolio__card-title">Text Encrypter</h4>
+                            <div class="portfolio__icons-container">
+                                <div class="portfolio__icon" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/js.svg)"></div>
+                                <div class="portfolio__icon" style="background: url(assets/icon/css3.svg)"></div>
+                            </div>
+                            <p class="portfolio__card-text">Alura Challenge</p>
+                            <div class="portfolio__buttons-container">
+                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="portfolio__button">
+                                    Watch Demo
+                                </a>
+                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="portfolio__button">
+                                    Watch on GitHub
                                 </a>
                             </div>
                         </li>
@@ -213,13 +304,13 @@
             </section>
 
             <section class="section" id="contacto">
-                <h3 class="section__title">Contacto</h3>
+                <h2 class="section__title">Contact Me</h2>
                 <p>Under Construction &#128679;</p>
             </section>
         </main>
 
         <footer class="footer">
-            <p>Desarrollado <a href="https://github.com/Sebastian-GA" target="_blank">@Sebastian-GA</a></p>
+            <p>Developed by <a href="https://github.com/Sebastian-GA" target="_blank">@Sebastian-GA</a></p>
             <p>2023</p>
         </footer>
         <script src="assets/js/validation.js"></script>
