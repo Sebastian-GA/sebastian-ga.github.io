@@ -17,15 +17,9 @@
         <!-- Styles -->
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/base.css" />
-        <link rel="stylesheet" href="assets/css/menu.css" />
-        <link rel="stylesheet" href="assets/css/home.css" />
-        <link rel="stylesheet" href="assets/css/section.css" />
-        <link rel="stylesheet" href="assets/css/about-me.css" />
-        <link rel="stylesheet" href="assets/css/icons.css" />
-        <link rel="stylesheet" href="assets/css/education.css" />
-        <link rel="stylesheet" href="assets/css/projects.css" />
-        <link rel="stylesheet" href="assets/css/contact.css" />
-        <link rel="stylesheet" href="assets/css/footer.css" />
+        <link rel="stylesheet" href="assets/css/card.css" />
+        <link rel="stylesheet" href="assets/css/icon.css" />
+        <link rel="stylesheet" href="assets/css/sections.css" />
     </head>
     <body>
         <!-- ==================== HEADER ==================== -->
@@ -39,6 +33,7 @@
                     <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
                     <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
                     <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+                    <li class="menu__item"><a href="#contact-me" class="menu__link">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -50,7 +45,7 @@
                 <div class="container">
                     <img src="assets/img/me.png" alt="me" class="home__img" />
                     <div class="home__content">
-                        <h3>&#128075; Hi There</h3>
+                        <h3 class="home__subtitle">&#128075; Hi There</h3>
                         <h1 class="home__title">I'm Sebastián</h1>
                         <p class="home__text">Student of Electronic Engineering at Industrial University of Santander.</p>
 
@@ -87,57 +82,61 @@
                 <h2 class="section__title">Skills</h2>
                 <div class="container">
                     <ul class="icons__container">
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/python.svg)"></div>
-                            <span class="icons__card-name">Python</span>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/python.svg)"></div>
+                            <span class="icon__name">Python</span>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/c++.svg)"></div>
-                            <p class="icons__card-name">C++</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/c++.svg)"></div>
+                            <p class="icon__name">C++</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/matlab.svg)"></div>
-                            <p class="icons__card-name">MATLAB</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/matlab.svg)"></div>
+                            <p class="icon__name">MATLAB</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/html5.svg)"></div>
-                            <span class="icons__card-name">HTML5</span>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/html5.svg)"></div>
+                            <span class="icon__name">HTML5</span>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/css3.svg)"></div>
-                            <span class="icons__card-name">CSS3</span>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/css3.svg)"></div>
+                            <span class="icon__name">CSS3</span>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/js.svg)"></div>
-                            <span class="icons__card-name">JavaScript</span>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/js.svg)"></div>
+                            <span class="icon__name">JavaScript</span>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/git.svg)"></div>
-                            <p class="icons__card-name">git</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/git.svg)"></div>
+                            <p class="icon__name">git</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/github.svg)"></div>
-                            <p class="icons__card-name">GitHub</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/github.svg)"></div>
+                            <p class="icon__name">GitHub</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/latex.svg)"></div>
-                            <p class="icons__card-name">LaTeX</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/latex.svg)"></div>
+                            <p class="icon__name">LaTeX</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/arduino.svg)"></div>
-                            <p class="icons__card-name">Arduino</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/arduino.svg)"></div>
+                            <p class="icon__name">Arduino</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/espressif.svg)"></div>
-                            <p class="icons__card-name">ESP32</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/espressif.svg)"></div>
+                            <p class="icon__name">ESP32</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/windows.svg)"></div>
-                            <p class="icons__card-name">Windows</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/microchip.png)"></div>
+                            <p class="icon__name">PIC</p>
                         </li>
-                        <li class="icons__card">
-                            <div class="icons__card-icon" style="background: url(assets/icon/linux.svg)"></div>
-                            <p class="icons__card-name">Linux</p>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/windows.svg)"></div>
+                            <p class="icon__name">Windows</p>
+                        </li>
+                        <li class="icon__card">
+                            <div class="icon" style="background: url(assets/icon/linux.svg)"></div>
+                            <p class="icon__name">Linux</p>
                         </li>
                     </ul>
                 </div>
@@ -148,21 +147,21 @@
                 <h2 class="section__title">Hobbies</h2>
                 <div class="container">
                     <ul class="icons__container">
-                        <li class="icons__card">
-                            <iconify-icon class="icons__card-icon" icon="uil:headphones-alt"></iconify-icon>
-                            <p class="icons__card-name">Music</p>
+                        <li class="icon__card">
+                            <iconify-icon class="icon" icon="uil:headphones-alt"></iconify-icon>
+                            <p class="icon__name">Music</p>
                         </li>
-                        <li class="icons__card">
-                            <iconify-icon class="icons__card-icon" icon="uil:tv-retro"></iconify-icon>
-                            <p class="icons__card-name">Movies</p>
+                        <li class="icon__card">
+                            <iconify-icon class="icon" icon="uil:tv-retro"></iconify-icon>
+                            <p class="icon__name">Movies</p>
                         </li>
-                        <li class="icons__card">
-                            <iconify-icon class="icons__card-icon" icon="uil:basketball"></iconify-icon>
-                            <p class="icons__card-name">Games</p>
+                        <li class="icon__card">
+                            <iconify-icon class="icon" icon="uil:basketball"></iconify-icon>
+                            <p class="icon__name">Games</p>
                         </li>
-                        <li class="icons__card">
-                            <iconify-icon class="icons__card-icon" icon="uil:basketball"></iconify-icon>
-                            <p class="icons__card-name">Origami</p>
+                        <li class="icon__card">
+                            <iconify-icon class="icon" icon="uil:basketball"></iconify-icon>
+                            <p class="icon__name">Origami</p>
                         </li>
                     </ul>
                 </div>
@@ -172,30 +171,30 @@
             <section class="section" id="education">
                 <h2 class="section__title">Education</h2>
                 <div class="container">
-                    <ul class="education__container">
-                        <li class="education__card">
-                            <img src="assets/img/uis-logo.png" alt="UIS Logo" class="education__card-mg" />
-                            <h4 class="education__card-title">Electronic Engineering</h4>
-                            <span class="education__card-institute">UIS</span>
-                            <span class="education__card-date">Expected in Dec 2023</span>
+                    <ul class="card__container">
+                        <li class="card card-left">
+                            <img src="assets/img/uis-logo.png" alt="UIS Logo" class="card__img education__img" />
+                            <h3 class="card__title">Electronic Engineering</h3>
+                            <span class="card__subtitle education__institute">UIS | Industrial University of Santander</span>
+                            <span class="card__subtitle education__date">Expected in Dec 2023</span>
                         </li>
-                        <li class="education__card">
-                            <img src="assets/img/one-logo.png" alt="ONE Logo" class="education__card-img" />
-                            <h4 class="education__card-title">Front-End Web Developer</h4>
-                            <span class="education__card-institute">ONE | Oracle Next Education</span>
-                            <span class="education__card-date">2023</span>
+                        <li class="card card-left">
+                            <img src="assets/img/one-logo.png" alt="ONE Logo" class="card__img education__img" />
+                            <h3 class="card__title">Front-End Web Developer</h3>
+                            <span class="card__subtitle education__institute">ONE | Oracle Next Education</span>
+                            <span class="card__subtitle education__date">2023</span>
                         </li>
                     </ul>
 
                     <!-- ==================== COURSES ==================== -->
                     <!--
                     <h3 class="section__subtitle">Courses</h3>
-                    <ul class="education__container">
-                        <li class="education__card-alt">
-                            <img src="assets/img/sena-logo.png" alt="SENA Logo" class="education__card-img" />
-                            <h4 class="education__card-title">Application of the Technical Regulation for Internal Telecommunications Networks</h4>
-                            <span class="education__card-institute">SENA</span>
-                            <span class="education__card-date">2022</pspa>
+                    <ul class="card__container">
+                        <li class="card-alt">
+                            <img src="assets/img/sena-logo.png" alt="SENA Logo" class="card__img education__img" />
+                            <h3 class="card__title">Application of the Technical Regulation for Internal Telecommunications Networks</h3>
+                            <span class="education__institute">SENA</span>
+                            <span class="education__date">2022</pspa>
                         </li>
                     </ul>
                     -->
@@ -206,106 +205,96 @@
             <section class="section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <div class="container">
-                    <ul class="portfolio__container">
+                    <ul class="card__container">
                         <!-- ==================== IT'S JUST A HUG ==================== -->
-                        <li class="portfolio__card">
-                            <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="portfolio__card-img" />
-                            <h4 class="portfolio__card-title">It's Just a Hug</h4>
-                            <div class="portfolio__icons-container">
-                                <div class="portfolio__icon" style="background: url(assets/icon/processing.png)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/python.svg)"></div>
+                        <li class="card project__card">
+                            <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="card__img" />
+                            <h3 class="card__title">It's Just a Hug</h3>
+                            <div class="icons__container icons__container-small">
+                                <div class="icon icon-small" style="background: url(assets/icon/processing.png)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/python.svg)"></div>
                             </div>
-                            <p class="portfolio__card-text">
+                            <p class="card__text">
                                 Local multiplayer video game for two players created in collaboration as a final project for a course.
                             </p>
-                            <div class="portfolio__buttons-container">
-                                <a
-                                    href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug"
-                                    target="_blank"
-                                    class="portfolio__button">
-                                    Watch on GitHub
-                                </a>
+                            <div class="project__buttons-container">
+                                <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="project__button"
+                                    >GitHub</a
+                                >
                             </div>
                         </li>
 
                         <!-- ==================== PYPLOTTER ==================== -->
-                        <li class="project__card">
-                            <img src="assets/img/pyplotter.png" alt="Project Preview" class="portfolio__card-img" />
-                            <h4 class="portfolio__card-title">PyPlotter</h4>
-                            <div class="portfolio__icons-container">
-                                <div class="portfolio__icon" style="background: url(assets/icon/python.svg)"></div>
+                        <li class="card project__card">
+                            <img src="assets/img/pyplotter.png" alt="Project Preview" class="card__img" />
+                            <h3 class="card__title">PyPlotter</h3>
+                            <div class="icons__container icons__container-small">
+                                <div class="icon icon-small" style="background: url(assets/icon/python.svg)"></div>
                             </div>
-                            <p class="portfolio__card-text">
-                                Simple GUI for plotting data from a serial port. Can be used to plot data from an Arduino, ESP32 or any other
-                                microcontroller.
+                            <p class="card__text">
+                                GUI for plotting data from a serial port. Can be used to plot data from microcontrollers like Arduino and ESP32.
                             </p>
-                            <div class="portfolio__buttons-container">
-                                <a href="https://github.com/Sebastian-GA/PyPlotter" target="_blank" class="portfolio__button"> Watch on GitHub </a>
+                            <div class="project__buttons-container">
+                                <a href="https://github.com/Sebastian-GA/PyPlotter" target="_blank" class="project__button">GitHub</a>
                             </div>
                         </li>
 
                         <!-- ==================== ALPACA IMAGE GENERATOR ==================== -->
-                        <li class="project__card">
-                            <img src="assets/img/alpaca-image-generator.png" alt="Project Preview" class="portfolio__card-img" />
-                            <h4 class="portfolio__card-title">Alpaca Generator</h4>
-                            <div class="portfolio__icons-container">
-                                <div class="portfolio__icon" style="background: url(assets/icon/html5.svg)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/css3.svg)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/js.svg)"></div>
+                        <li class="card project__card">
+                            <img src="assets/img/alpaca-image-generator.png" alt="Project Preview" class="card__img" />
+                            <h3 class="card__title">Alpaca Generator</h3>
+                            <div class="icons__container icons__container-small">
+                                <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
                             </div>
-                            <p class="portfolio__card-text">Alpaca Image Generator using HTML, CSS and JS. Challenge from DevProjects.</p>
-                            <div class="portfolio__buttons-container">
-                                <a href="https://sebastian-ga.github.io/alpaca-image-generator/" target="_blank" class="portfolio__button"> Watch Demo </a>
-                                <a href="https://github.com/Sebastian-GA/alpaca-image-generator" target="_blank" class="portfolio__button">
-                                    Watch on GitHub
-                                </a>
+                            <p class="card__text">Alpaca Image Generator using HTML, CSS and JS. Challenge from DevProjects.</p>
+                            <div class="project__buttons-container">
+                                <a href="https://sebastian-ga.github.io/alpaca-image-generator/" target="_blank" class="project__button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/alpaca-image-generator" target="_blank" class="project__button">GitHub</a>
                             </div>
                         </li>
 
-                        <!-- ==================== CALCULATOR APP ==================== -->º
-                        <li class="project__card">
-                            <img src="assets/img/calculator-app.png" alt="Project Preview" class="portfolio__card-img" />
-                            <h4 class="portfolio__card-title">Calculator App</h4>
-                            <div class="portfolio__icons-container">
-                                <div class="portfolio__icon" style="background: url(assets/icon/html5.svg)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/css3.svg)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/js.svg)"></div>
+                        <!-- ==================== CALCULATOR APP ==================== -->
+                        <li class="card project__card">
+                            <img src="assets/img/calculator-app.png" alt="Project Preview" class="card__img" />
+                            <h3 class="card__title">Calculator App</h3>
+                            <div class="icons__container icons__container-small">
+                                <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
                             </div>
-                            <p class="portfolio__card-text">Solution to the Calculator App challenge on Frontend Mentor.</p>
-                            <div class="portfolio__buttons-container">
-                                <a href="https://sebastian-ga.github.io/calculator-app/" target="_blank" class="portfolio__button"> Watch Demo </a>
-                                <a href="https://github.com/Sebastian-GA/calculator-app" target="_blank" class="portfolio__button">
-                                    Watch on GitHub
-                                </a>
+                            <p class="card__text">Solution to the Calculator App challenge on Frontend Mentor.</p>
+                            <div class="project__buttons-container">
+                                <a href="https://sebastian-ga.github.io/calculator-app/" target="_blank" class="project__button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/calculator-app" target="_blank" class="project__button">GitHub</a>
                             </div>
                         </li>
 
                         <!-- ==================== TEXT ENCRYPTER ==================== -->
-                        <li class="project__card">
-                            <img src="assets/img/text-encrypter.png" alt="Project Preview" class="portfolio__card-img" />
-                            <h4 class="portfolio__card-title">Text Encrypter</h4>
-                            <div class="portfolio__icons-container">
-                                <div class="portfolio__icon" style="background: url(assets/icon/html5.svg)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/js.svg)"></div>
-                                <div class="portfolio__icon" style="background: url(assets/icon/css3.svg)"></div>
+                        <li class="card project__card">
+                            <img src="assets/img/text-encrypter.png" alt="Project Preview" class="card__img" />
+                            <h3 class="card__title">Text Encrypter</h3>
+                            <div class="icons__container icons__container-small">
+                                <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
+                                <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
                             </div>
-                            <p class="portfolio__card-text">Alura Challenge</p>
-                            <div class="portfolio__buttons-container">
-                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="portfolio__button">
-                                    Watch Demo
-                                </a>
-                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="portfolio__button">
-                                    Watch on GitHub
-                                </a>
+                            <p class="card__text">Alura Challenge</p>
+                            <div class="project__buttons-container">
+                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="project__button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="project__button">GitHub</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
 
-            <section class="section" id="contacto">
+            <section class="section" id="contact-me">
                 <h2 class="section__title">Contact Me</h2>
-                <p>Under Construction &#128679;</p>
+                <div class="container">
+                    <p>Under Construction &#128679;</p>
+                </div>
             </section>
         </main>
 

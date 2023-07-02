@@ -1,32 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/* ==================== VARIABLES ==================== */
 :root {
     --background-cream: #f5f5f5;
-
-    --font-dark-grey: #464646;
-    --font-black: #000000;
     --font: "Poppins", sans-serif;
+
+    --title-color: hsl(250, 8%, 15%);
+    --text-color: hsl(250, 8%, 45%);
+    --text-color-light: hsl(250, 8%, 65%);
+    --text-acent: hsl(250, 54%, 45%);
+
+    --super-title-font-size: 3.1rem;
+    --title-font-size: 1.5rem;
+    --subtitle-font-size: 1.25rem;
+    --subtitle2-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
 }
 
+/* ==================== RESET ==================== */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-html {
-    min-width: 300px;
-    font-size: 16px;
-    scroll-behavior: smooth;
-}
-body {
-    font-family: var(--font);
-    font-weight: 400;
-    color: var(--font-black);
-    padding: 0.8rem;
-    background-color: var(--background-cream);
-}
-
 a {
     text-decoration: none;
 }
@@ -35,12 +32,20 @@ img {
     height: auto;
 }
 
-.container {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+/* ==================== BASE ==================== */
+html {
+    min-width: 300px;
+    scroll-behavior: smooth;
 }
+body {
+    padding: 0.8rem;
+    background-color: var(--background-cream);
 
+    font-family: var(--font);
+    font-size: var(--normal-font-size);
+    font-weight: 400;
+    color: var(--text-color);
+}
 
 @media screen and (min-width: 768px) {
     body {

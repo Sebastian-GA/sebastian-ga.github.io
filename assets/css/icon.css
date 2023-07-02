@@ -1,14 +1,17 @@
 .icons__container {
+    width: 100%;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
     gap: 1rem;
-    margin: 2rem 0;
+}
+.icons__container-small {
+    justify-content: center;
 }
 
-.icons__card {
+.icon__card {
     width: 20%;
 
     display: flex;
@@ -16,20 +19,23 @@
     align-items: center;
     gap: 0.8rem;
 }
-.icons__icon {
+.icon {
     width: 60%;
     aspect-ratio: 1;
     background-position: center;
     background-size: contain !important;
     background-repeat: no-repeat !important;
 }
-.icons__name {
+.icon-small {
+    width: 1.5rem;
+}
+.icon__name {
     text-align: center;
     font-size: 0.9rem;
 }
 
 @media screen and (min-width: 768px) {
-    .icons__card {
+    .icon__card {
         width: 10%;
     }
 }
