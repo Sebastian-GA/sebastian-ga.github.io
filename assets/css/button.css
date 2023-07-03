@@ -21,13 +21,17 @@
     background-color: var(--title-color);
 }
 .button:hover {
-    background-color: var(--link-accent);
+    background-color: var(--accent-color);
 }
 
 .button-big {
-    padding: 1rem;
-    margin-right: 1rem;
+    padding: 1.2rem;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+}
+.button-big:hover {
+    background-color: var(--accent-color-alt);
 }
 .button-big iconify-icon {
-    font-size: var(--subtitle-font-size);
+    font-size: var(--title-font-size);
 }
