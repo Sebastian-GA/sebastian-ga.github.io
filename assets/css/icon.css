@@ -1,13 +1,13 @@
-.icons__container {
+.icon__container {
     width: 100%;
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
-.icons__container-small {
+.icon__container-small {
     justify-content: center;
 }
 
@@ -31,7 +31,7 @@
 }
 .icon__name {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: var(--normal-font-size);
 }
 
 @media screen and (min-width: 768px) {

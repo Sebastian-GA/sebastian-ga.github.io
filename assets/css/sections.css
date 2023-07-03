@@ -31,19 +31,23 @@
 }
 .menu__logo {
     color: var(--title-color);
+    font-size: var(--normal-font-size);
     font-weight: 500;
+}
+.menu__logo:hover {
+    color: var(--link-accent);
 }
 .menu__list {
     display: none;
 }
 .menu__link {
     text-decoration: none;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: 500;
     color: var(--title-color);
 }
 .menu__link:hover {
-    color: var(--text-acent);
+    color: var(--link-accent);
 }
 
 @media screen and (min-width: 1024px) {
@@ -83,30 +87,8 @@
     color: var(--title-color);
 }
 .home__text {
+    margin-bottom: 1rem;
     font-size: var(--normal-font-size);
-}
-
-.home__social {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-}
-.home__social-link {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-
-    text-decoration: none;
-    color: var(--title-color);
-    font-size: var(--normal-font-size) !important;
-    font-weight: 500;
-
-    padding: 0.25rem 0.6rem;
-    border: 1px solid #000;
-    border-radius: 5px;
-}
-.home__social-link:hover {
-    font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
@@ -137,6 +119,12 @@
 /* ==================== SKILLS ==================== */
 
 /* ==================== HOBBIES ==================== */
+#hobbies iconify-icon {
+    color: var(--title-color);
+}
+#hobbies iconify-icon {
+    font-size: 2rem;
+}
 
 /* ==================== EDUCATION ==================== */
 .education__img {
@@ -148,6 +136,9 @@
     color: var(--text-color);
 }
 .education__date {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
     color: var(--text-color-light);
 }
 
@@ -155,26 +146,6 @@
 .project__card {
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-.project__buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.project__button {
-    padding: 0.5rem;
-    border-radius: 5px;
-
-    text-decoration: none;
-    font-weight: 500;
-    color: #ffffff;
-
-    background-color: var(--title-color);
-}
-.project__button:hover {
-    background-color: crimson;
 }
 
 /* ==================== CONTACT ==================== */
@@ -188,7 +159,7 @@
 }
 .footer a {
     text-decoration: none;
-    color: var(--font-dark-grey);
+    color: var(--text-color);
     font-weight: 500;
 }
 

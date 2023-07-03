@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sebastián GA | Portafolio</title>
+        <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
 
         <!-- Import Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,13 +13,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <!-- Import Icons -->
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/base.css" />
         <link rel="stylesheet" href="assets/css/card.css" />
         <link rel="stylesheet" href="assets/css/icon.css" />
+        <link rel="stylesheet" href="assets/css/button.css" />
         <link rel="stylesheet" href="assets/css/sections.css" />
     </head>
     <body>
@@ -48,16 +49,17 @@
                         <h3 class="home__subtitle">&#128075; Hi There</h3>
                         <h1 class="home__title">I'm Sebastián</h1>
                         <p class="home__text">Student of Electronic Engineering at Industrial University of Santander.</p>
-
-                        <div class="home__social">
+                        <div class="button__container">
+                            <!--
                             <a href="http://example.com/" class="home__social-link" target="_blank">
-                                Resume <iconify-icon icon="uil:file-blank"></iconify-icon>
+                                Resume <iconify-icon icon="mdi:file"></iconify-icon>
                             </a>
-                            <a href="https://github.com/Sebastian-GA" class="home__social-link" target="_blank">
-                                GitHub <iconify-icon icon="uil:github"></iconify-icon>
+                            -->
+                            <a href="https://github.com/Sebastian-GA" class="button button-big" target="_blank">
+                                GitHub <iconify-icon icon="mdi:github"></iconify-icon>
                             </a>
-                            <a href="https://linkedin.com/in/Sebastian-GA" class="home__social-link" target="_blank">
-                                Linkedin <iconify-icon icon="uil:linkedin"></iconify-icon>
+                            <a href="https://linkedin.com/in/Sebastian-GA" class="button button-big" target="_blank">
+                                Linkedin <iconify-icon icon="mdi:linkedin"></iconify-icon>
                             </a>
                         </div>
                     </div>
@@ -81,7 +83,7 @@
             <section class="section" id="skills">
                 <h2 class="section__title">Skills</h2>
                 <div class="container">
-                    <ul class="icons__container">
+                    <ul class="icon__container">
                         <li class="icon__card">
                             <div class="icon" style="background: url(assets/icon/python.svg)"></div>
                             <span class="icon__name">Python</span>
@@ -146,21 +148,21 @@
             <section class="section" id="hobbies">
                 <h2 class="section__title">Hobbies</h2>
                 <div class="container">
-                    <ul class="icons__container">
+                    <ul class="icon__container">
                         <li class="icon__card">
-                            <iconify-icon class="icon" icon="uil:headphones-alt"></iconify-icon>
+                            <iconify-icon icon="mdi:headphones"></iconify-icon>
                             <p class="icon__name">Music</p>
                         </li>
                         <li class="icon__card">
-                            <iconify-icon class="icon" icon="uil:tv-retro"></iconify-icon>
+                            <iconify-icon icon="mdi:television"></iconify-icon>
                             <p class="icon__name">Movies</p>
                         </li>
                         <li class="icon__card">
-                            <iconify-icon class="icon" icon="uil:basketball"></iconify-icon>
+                            <iconify-icon icon="mdi:gamepad-variant"></iconify-icon>
                             <p class="icon__name">Games</p>
                         </li>
                         <li class="icon__card">
-                            <iconify-icon class="icon" icon="uil:basketball"></iconify-icon>
+                            <iconify-icon icon="mdi:scissors-cutting"></iconify-icon>
                             <p class="icon__name">Origami</p>
                         </li>
                     </ul>
@@ -176,13 +178,19 @@
                             <img src="assets/img/uis-logo.png" alt="UIS Logo" class="card__img education__img" />
                             <h3 class="card__title">Electronic Engineering</h3>
                             <span class="card__subtitle education__institute">UIS | Industrial University of Santander</span>
-                            <span class="card__subtitle education__date">Expected in Dec 2023</span>
+                            <span class="card__subtitle education__date">
+                                <iconify-icon icon="mdi:calendar-month-outline"></iconify-icon>
+                                Jan 2019 - Expected in Dec 2023
+                            </span>
                         </li>
                         <li class="card card-left">
                             <img src="assets/img/one-logo.png" alt="ONE Logo" class="card__img education__img" />
                             <h3 class="card__title">Front-End Web Developer</h3>
                             <span class="card__subtitle education__institute">ONE | Oracle Next Education</span>
-                            <span class="card__subtitle education__date">2023</span>
+                            <span class="card__subtitle education__date">
+                                <iconify-icon icon="mdi:calendar-month-outline"></iconify-icon>
+                                Nov 2022 - Jun 2023
+                            </span>
                         </li>
                     </ul>
 
@@ -210,17 +218,15 @@
                         <li class="card project__card">
                             <img src="assets/img/its-just-a-hug.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">It's Just a Hug</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/processing.png)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/python.svg)"></div>
                             </div>
                             <p class="card__text">
                                 Local multiplayer video game for two players created in collaboration as a final project for a course.
                             </p>
-                            <div class="project__buttons-container">
-                                <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="project__button"
-                                    >GitHub</a
-                                >
+                            <div class="button__container">
+                                <a href="https://github.com/Computer-Programming-I-UIS/game-it-s-just-a-hug" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
 
@@ -228,14 +234,14 @@
                         <li class="card project__card">
                             <img src="assets/img/pyplotter.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">PyPlotter</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/python.svg)"></div>
                             </div>
                             <p class="card__text">
                                 GUI for plotting data from a serial port. Can be used to plot data from microcontrollers like Arduino and ESP32.
                             </p>
-                            <div class="project__buttons-container">
-                                <a href="https://github.com/Sebastian-GA/PyPlotter" target="_blank" class="project__button">GitHub</a>
+                            <div class="button__container">
+                                <a href="https://github.com/Sebastian-GA/PyPlotter" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
 
@@ -243,15 +249,15 @@
                         <li class="card project__card">
                             <img src="assets/img/alpaca-image-generator.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">Alpaca Generator</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
                             </div>
                             <p class="card__text">Alpaca Image Generator using HTML, CSS and JS. Challenge from DevProjects.</p>
-                            <div class="project__buttons-container">
-                                <a href="https://sebastian-ga.github.io/alpaca-image-generator/" target="_blank" class="project__button">Demo</a>
-                                <a href="https://github.com/Sebastian-GA/alpaca-image-generator" target="_blank" class="project__button">GitHub</a>
+                            <div class="button__container">
+                                <a href="https://sebastian-ga.github.io/alpaca-image-generator/" target="_blank" class="button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/alpaca-image-generator" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
 
@@ -259,12 +265,12 @@
                         <li class="card project__card">
                             <img src="assets/img/pic-tracker.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">PICTracker</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/microchip.png)"></div>
                             </div>
                             <p class="card__text">GPS tracker using a PIC16F1827 microcontroller.</p>
-                            <div class="project__buttons-container">
-                                <a href="https://github.com/Sebastian-GA/PICTracker" target="_blank" class="project__button">GitHub</a>
+                            <div class="button__container">
+                                <a href="https://github.com/Sebastian-GA/PICTracker" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
 
@@ -272,15 +278,15 @@
                         <li class="card project__card">
                             <img src="assets/img/calculator-app.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">Calculator App</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
                             </div>
                             <p class="card__text">Calculator App using HTML, CSS and JS. Challenge from Frontend Mentor.</p>
-                            <div class="project__buttons-container">
-                                <a href="https://sebastian-ga.github.io/calculator-app/" target="_blank" class="project__button">Demo</a>
-                                <a href="https://github.com/Sebastian-GA/calculator-app" target="_blank" class="project__button">GitHub</a>
+                            <div class="button__container">
+                                <a href="https://sebastian-ga.github.io/calculator-app/" target="_blank" class="button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/calculator-app" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
 
@@ -288,15 +294,15 @@
                         <li class="card project__card">
                             <img src="assets/img/todo-app.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">ToDo App</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
                             </div>
                             <p class="card__text">Simple ToDo App to help you stay organized and manage your tasks.</p>
-                            <div class="project__buttons-container">
-                                <a href="https://sebastian-ga.github.io/todo-app/" target="_blank" class="project__button">Demo</a>
-                                <a href="https://github.com/Sebastian-GA/todo-app" target="_blank" class="project__button">GitHub</a>
+                            <div class="button__container">
+                                <a href="https://sebastian-ga.github.io/todo-app/" target="_blank" class="button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/todo-app" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
 
@@ -304,15 +310,15 @@
                         <li class="card project__card">
                             <img src="assets/img/text-encrypter.png" alt="Project Preview" class="card__img" />
                             <h3 class="card__title">Text Encrypter</h3>
-                            <div class="icons__container icons__container-small">
+                            <div class="icon__container icon__container-small">
                                 <div class="icon icon-small" style="background: url(assets/icon/html5.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/js.svg)"></div>
                                 <div class="icon icon-small" style="background: url(assets/icon/css3.svg)"></div>
                             </div>
                             <p class="card__text">Text encrypter created for an Alura Challenge.</p>
-                            <div class="project__buttons-container">
-                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="project__button">Demo</a>
-                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="project__button">GitHub</a>
+                            <div class="button__container">
+                                <a href="https://sebastian-ga.github.io/challenge-one-encriptador/" target="_blank" class="button">Demo</a>
+                                <a href="https://github.com/Sebastian-GA/challenge-one-encriptador" target="_blank" class="button">GitHub</a>
                             </div>
                         </li>
                     </ul>

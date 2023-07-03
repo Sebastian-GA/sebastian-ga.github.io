@@ -1,0 +1,33 @@
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+
+    background-color: var(--title-color);
+}
+.button:hover {
+    background-color: var(--link-accent);
+}
+
+.button-big {
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.button-big iconify-icon {
+    font-size: var(--subtitle-font-size);
+}
